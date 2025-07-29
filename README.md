@@ -37,6 +37,7 @@ From the root directory of this project, run the following command:
 
 ```bash
 docker build --platform linux/amd64 -t adobe-hackathon-1a .
+```
 
 ### 2. Run the docker container
 
