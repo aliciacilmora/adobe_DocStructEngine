@@ -266,8 +266,8 @@ def process_pdf(pdf_path):
 
 
 if __name__ == "__main__":
-    input_dir = "input"
-    output_dir = "final_output" # Use a different name to avoid overwriting your work
+    input_dir = "/app/input"
+    output_dir = "/app/output"
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
